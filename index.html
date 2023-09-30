@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="logo">
+                <img src="img/email.svg" alt="afcd" srcset="">
+                <span>iValidate</span>
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About Us</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Enter your email to Validate</h1>
+            <form action="/submit" method="post">
+                <input placeholder="Enter your email to validate" type="text" id="username" name="username" required>
+                <br><br>
+                <input id="submitBtn" class="btn" type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="container">
+            <h2>Your Result</h2>
+            <div id="resultconst"></div>
+        </div>
+    </main>
+    <footer>
+        Copyright | iValidate.com | All Rights reserved
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
